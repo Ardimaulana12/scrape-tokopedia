@@ -7,7 +7,7 @@ make sure you have python on your computer
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Ardimaulana12/scrape-tokopedia.git
 ```
 
 Go to the project directory
