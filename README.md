@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd scrape-tokped
+  cd scrape-tokopedia
 ```
 
 Create Environment file
