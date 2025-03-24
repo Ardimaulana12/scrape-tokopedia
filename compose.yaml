@@ -1,0 +1,17 @@
+services:
+  scraping:
+    container_name: scraping-tokped
+    build:
+      dockerfile: Dockerfile
+    image: scraping:1.0
+    volumes:
+      # Otomatis bind hasil scraping ke folder lokal
+      - ./output:/home/scraping/output
+      - ./src:/home/scraping
+    stdin_open: true
+    tty: true
+    command: ["tail", "-f", "/dev/null"] # Agar container tetap berjalan
+
+volumes:
+  scraping:
+    driver: local
